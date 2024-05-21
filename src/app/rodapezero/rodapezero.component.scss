@@ -1,0 +1,28 @@
+
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+      color: aqua;
+    }
+    50% {
+      opacity: 0;
+      color: blueviolet;
+    }
+    100% {
+      opacity: 1;
+      color: black;
+    }
+  }
+  
+  footer {
+    font-size: 14px;
+    animation: blink 4s infinite;
+    background: rgb(227, 229, 193);
+    color: white;
+    text-align: center;
+    height: 20px;
+    padding-top: 1px;
+  }
+
+

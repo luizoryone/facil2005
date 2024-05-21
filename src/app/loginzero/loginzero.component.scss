@@ -1,0 +1,30 @@
+#section-login {
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+main {
+    color: red;
+    font-size: 30px;
+    animation: blink 10s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+  }
+  
